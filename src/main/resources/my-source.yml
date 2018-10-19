@@ -1,0 +1,12 @@
+apiVersion: "streamzi.io/v1"
+kind: Processor
+metadata:
+  name: uo-websocket-client
+spec:
+  displayName: "Urban Observatory values"
+  description: "Imports data from Newcastle Urban Observatory"
+  imageName: "sjwoodman/uo-websocket-client"
+  inputs:
+  outputs:
+    - "output-data"
+  settings:
